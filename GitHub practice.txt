@@ -1,0 +1,12 @@
+On GitHub, saved changes are called commits. Each commit has an associated commit message, which is a description explaining why a particular change was made. Commit messages capture the history of your changes so that other contributors can understand what you’ve done and why.
+
+PULL REQUEST:
+Pull requests are the heart of collaboration on GitHub. When you open a pull request, you're proposing your changes and requesting that someone review and pull in your contribution and merge them into their branch. Pull requests show diffs, or differences, of the content from both branches. The changes, additions, and subtractions are shown in different colors.
+Creating a PULL Request: Select the branch you made, (readme-edits), to compare with main (the original).
+MERGING a Requet: Sometimes, a pull request may introduce changes to code that conflict with the existing code on main. If there are any conflicts, GitHub will alert you about the conflicting code and prevent merging until the conflicts are resolved. You can make a commit that resolves the conflicts or use comments in the pull request to discuss the conflicts with your team members.
+
+** VERSION CONTROL:
+
+Local Version Control Systems, Revised Control Systems, Centralized Version Control Systems.
+Problem with CVCS is The most obvious is the single point of failure that the centralized server represents. If the hard disk the central database is on becomes corrupted, and proper backups haven’t been kept, you lose absolutely everything.
+Local VCSs suffer from this same problem — whenever you have the entire history of the project in a single place, you risk losing everything.
